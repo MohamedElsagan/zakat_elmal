@@ -1,0 +1,30 @@
+.container {
+    text-align: right;
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    font-style: oblique;
+    letter-spacing: 9px;
+    text-shadow: 47px 17px 11px brown;
+}
+
+.container input {
+    text-align: right;
+    width: 800px;
+    height: 60px;
+    margin: 30px;
+    padding: 10PX;
+    font-size: 30PX;
+}
+
+.container input:focus {
+    border: 3px solid brown;
+    box-shadow: 30px 0px 41px brown;
+}
+
+.container input::placeholder {
+    font-size: 30px;
+    color: black;
+}
