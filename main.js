@@ -7,7 +7,7 @@ inputnum.onkeyup = function() {
     if (Number(inputnum.value)) {
 
         outputnum.value = ' جنية '
-        outputnum.value += inputnum.value * 0.25;
+        outputnum.value += inputnum.value * 0.025;
     } else if (inputnum.value == '') {
         outputnum.value = '';
 
