@@ -5,9 +5,12 @@ var outputnum = document.getElementById('outputnum');
 
 inputnum.onkeyup = function() {
     if (Number(inputnum.value)) {
-
-        outputnum.value = ' جنية '
-        outputnum.value += inputnum.value * 0.025;
+        if(inputnum.value <= 0){
+            outputnum.value = "";
+        }else{
+            outputnum.value = ' جنية '
+            outputnum.value += inputnum.value * 0.025;
+        }
     } else if (inputnum.value == '') {
         outputnum.value = '';
 
